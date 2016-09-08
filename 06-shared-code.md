@@ -19,7 +19,8 @@ Create some functions called:
 
 * `totalDurationOfCalls` that takes in a list of call durations and return the total call duration for all the durations in the list;
 * `totalCostForEachCall` that takes in a list of call durations an returns a list of total costs for each duration;
-* `totalForBill` that takes in a list of call durations and return the total cost for all the calls. The cost per second being `5` cents.
+* `totalForBill` that takes in a list of call durations and return the total cost for all the calls.
 
+The cost per second being `5` cents.
 
 The new functions should work for alternatives of sets of data such as `[17, 67, 53, 48, 23]`.
