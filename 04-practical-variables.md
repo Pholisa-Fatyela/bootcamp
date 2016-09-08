@@ -31,8 +31,10 @@ var callDurations = [23, 47, 50, 17];
 
 > Do you still remember how to access values in a list?
 
-Now use the `callDurations` variable to calculate the following:
+Now use the `callDurations` List variable to calculate the following:
 
 * the total duration of all 4 last calls;
 * the total cost for each call;
 * the total cost for all calls.
+
+Remember to use indexes to access data.
