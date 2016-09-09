@@ -9,7 +9,7 @@ Now that you know more about variables let's get more practical. Cellphones are 
 
 We will focus on the how long part. Let's say we know the information about the last four phone calls you received.
 
-The last 4 call you received was `23, 47, 50 and 17` seconds long each.
+The last 4 calls you received was `23, 47, 50 and 17` seconds long each.
 
 `var costPerSecond = 7`;
 

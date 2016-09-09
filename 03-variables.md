@@ -5,14 +5,15 @@ title: Variables
 
 # Variables
 
-Data is one of the fundamental building blocks when programming. Programs store data about a wide array of topics. And can be various different types - the basic types includes numbers, strings or boolean data. Or more complicated data such as collections of data called Arrays. Or key value pairs where by a key can be associated with a value - which can ultimate be used to model Objects. Objects are more complicated variables that contains a collection of attributes about a real world object.
+Data is one of the fundamental building blocks when programming. Programs store data about various different topics. Variables can be various of various different types.
 
-Data in a program is stored in variables, variables can change over time. Programs can control lots of different variables that store lot of different information.
+The basic variable types includes `numbers`, `strings` or `boolean` data. More complicated variable types includes collections of data such Arrays or Objects/key value pairs where by a key can be associated with a value. Objects are more complicated variables that contains collections of attributes.
+
+Variables are like 'labelled' boxes in which programs store information, the information in 'the boxes' can change over time. Similarly the value in variables can change over time. Programs can control different variables that allows a program to store information about lots of different things.
 
 ## Creating variables
 
-Programs store information in variables which needs to be defined before they can be used. Defining a variable is `allocating space` where data can be stored. If one try to use a variable before it is defined it could lead to problems - it can lead to `not defined` errors. This mean that the variable can't be used yet. Once a variable is defined, but it doesn't have a value yet it is `undefined` - and still can't be used.
-
+Before a program can store information in a variables it needs to be defined. Defining a variable is `allocating space` where data can be stored. If one try to use a variable before it is defined it could lead to problems - it can lead to `not defined` errors. This mean that the variable can't be used yet. Once a variable is defined, but it doesn't have a value yet it is `undefined` - and can be used, but it doesn't have a value yet.
 
 ## Try it out:
 
@@ -21,7 +22,7 @@ Open a new `terminal` window:
 * type `node` to start NodeJS or the Chrome Web Console
 * Now try and access a variable called `firstName` - what happens?
 * Now define the variable `var firstName;` - try to access it? What happens?
-* Now give it a value = `var firstName = 'André';` What happened?
+* Now give it a value = `var firstName = '';` What happened?
 
 When you are trying to use a variable that doesn't exists programs are normally not happy. Watch our for that!
 

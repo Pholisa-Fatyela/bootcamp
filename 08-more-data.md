@@ -15,38 +15,59 @@ Data such as:
 
 We need to find a way of enriching call data so that you can store all the above information for each call. That is exactly what Objects are for.
 
-An object modeling the call data looks like this:
+An object that models a call look like this:
 
-`
+```javascript
+
 var callOneData = {
     number : '0825004000',
     duration : 37,
-    direction = 'inbound',
-    serviceProvider = 'MTN'
+    direction : 'inbound',
+    serviceProvider : 'MTN'
 };
-`
+
+```
 
 To access the duration data you need to access it via the `callOneData` object like this:
 
 `callOneData.duration`
 
-Accessing the properties of an object's that is in a list looks like this:
+Accessing the properties of an object that is in a list looks like this:
 
-`console.log(callList[0].duration);
+```javascript
+
+//example call list
+var callList = [/* list of calls */];
+
+console.log(callList[0].duration);
 console.log(callList[0].direction));
 console.log(callList[0].serviceProvider));
-`
+
+```
 
 ## Use objects
 
 Now practice using some objects using this dataset:
 
-`var userCalls = [
-    { duration : 41, 'number' : '0836138901', direction = 'inbound', serviceProvider : 'MTN'},
-    { duration : 17, 'number' : '0826901234', direction = 'outbound', serviceProvider : 'MTN'},
-    { duration : 41, 'number' : '0761505671', direction = 'inbound', serviceProvider : 'MTN'},
-    { duration : 41, 'number' : '0641268012', direction = 'outbound', serviceProvider : 'MTN'},
-];`
+```javascript
+var userCalls = [ { duration : 41,
+                    number : '0836138901',
+                    direction : 'inbound',
+                    serviceProvider : 'MTN'},
+                  { duration : 17,
+                    number : '0826901234',
+                    direction : 'outbound',
+                    serviceProvider : 'MTN'},
+                  { duration : 41,
+                    number : '0761505671',
+                    direction : 'inbound',
+                    serviceProvider : 'MTN'},
+                  { duration : 41,
+                    number : '0641268012',
+                     direction : 'outbound',
+                     serviceProvider : 'MTN'}
+                  ];
+```
 
 Write some functions called:
 
