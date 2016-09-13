@@ -5,8 +5,9 @@ title: More data
 
 # More data
 
-All the work you done so far was around a list of call durations. But in reality when you are making a phone call more data is involved.
-Data such as:
+The work you done so far was around a list of call durations. In reality when you are making a phone call more data is involved.
+
+Such as:
 
 * the number dialed
 * the duration of the call
@@ -30,7 +31,9 @@ var callOneData = {
 
 To access the duration data you need to access it via the `callOneData` object like this:
 
-`callOneData.duration`
+```javascript
+console.log(callOneData.duration);
+```
 
 Accessing the properties of an object that is in a list looks like this:
 
