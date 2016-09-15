@@ -67,3 +67,15 @@ Now use a loop with the `callDurations` variable to calculate the following valu
 * the total cost for all calls.
 
 What kind of loop did you use? How useful are loops?
+
+## Looping over more data
+
+Now that you can answer the questions using loops you can easily add new callDurations entries and your calculations should still work.
+
+Try it out, use your functions with this list:
+
+```javascript
+var callDurationsTwo = [23, 47, 50, 17, 34, 71];
+```
+
+What happens?
