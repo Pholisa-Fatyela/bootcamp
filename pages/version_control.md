@@ -39,13 +39,13 @@ Now add all your changes to git.
 
 * `git add .` to add all your changes to git.
 * `git commit -m ‘put changes back’` to commit the changes.
-* `git status` should show there is no pending changes or uncommitted files.
+* `git status` should show there are no pending changes or uncommitted files.
 
 ## Why is it called git:
 
 It's name after it's creator [a grumpy old guy](https://www.quora.com/How-did-Git-get-its-name) - called [Linus Torvalds](https://en.wikipedia.org/wiki/Linus_Torvalds)
 
-## Getting chances back
+## Getting changes back
 
 Execute this command:
 
@@ -65,4 +65,6 @@ Git is not only for storing and tracking your files, but it's main goal is to al
 
 Try out git [online at github](http://try.github.com)
 
-Now learn more about git by completing the [git-it](http://jlord.us/git-it/) tutorial. Type `git-it` in the terminal to get going. Only do the first 6 exercises up until `Branches aren't just for birds`
+Now learn more about git by completing the [git-it](http://jlord.us/git-it/) tutorial. Type `git-it` in the terminal to get going.
+
+Only do the first `6 exercises` up until `Fork and clones`.
