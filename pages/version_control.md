@@ -37,6 +37,14 @@ Now add all your changes to git.
 
 ## Add & commit your changes into git:
 
+Before you will be able to commit your changes run this command in the terminal:
+
+ `git config --global user.email "<PUT YOU EMAIL HERE>"`
+
+Be sure to replace the `<PUT YOU EMAIL HERE>` with your email address.
+
+Now add your changes to git:
+
 * `git add .` to add all your changes to git.
 * `git commit -m ‘put changes back’` to commit the changes.
 * `git status` should show there are no pending changes or uncommitted files.
