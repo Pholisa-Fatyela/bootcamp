@@ -41,10 +41,10 @@ From the command line:
     * learn git
     * add anything else you would like to achieve?
 
-* Save all the commands you learnt so far in a file called ‘commands.txt’. Add this file to the git repository.
+* Save all the commands you learnt so far in a file called ‘commands.txt’.
 
 ## Learn more
 
 Learn more about the command line (terminal) by doing the [command line](https://www.codecademy.com/en/courses/learn-the-command-line) on Codecademy.
 
-Once you feel more confident using the command line look at [this command line crash course](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) from Viking Code School to learn more.
+Optionally look at [this command line crash course](https://www.vikingcodeschool.com/web-development-basics/a-command-line-crash-course) from Viking Code School to learn more.

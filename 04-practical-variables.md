@@ -3,15 +3,13 @@ layout: default
 title: Practical variables
 ---
 
-## Practical variables
+# Practical variables
 
 Now that you know more about variables let's get more practical. Cellphones are a part of your daily lives. And know who and for how long people phoned us is important.
 
 We will focus on the how long part. Let's say we know the information about the last four phone calls you received.
 
-The last 4 calls you received was `23, 47, 50 and 17` seconds long each.
-
-`var costPerSecond = 7`;
+The last 4 calls you received was `23, 47, 50 and 17` seconds long each. The cost for each call is 7 cents.
 
 Now using variables calculate the following:
 
