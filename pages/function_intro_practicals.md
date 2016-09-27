@@ -20,7 +20,7 @@ Write a function called `countRegNumber` that takes in a string parameter that l
 
 ## Dates
 
-Write a function that returns a boolean to find out if today is Tuesday called `isTuesday`?
+Write a function called `isTuesday` that returns a boolean to find out if today is Tuesday?
 
 ## Vehicle registration numbers
 
