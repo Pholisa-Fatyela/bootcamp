@@ -190,33 +190,14 @@ class: center, middle, reverse
 # What is a programming language?
 
 ---
-# A `command` vs writing a program
-
---
-
-using vs extending
-
---
-
-you are extending the computers capabilities
----
-
-# What programming languages do you know about?
+# How did you execute programs you wrote?
 
 ---
-# What programming have you done?
+layout: false
 
----
+# JS from the terminal
 
-# What is computer programming?
-
----
-
-# What do you do when you program?
-
----
-
-# What do programs do?
+type in `node` on the terminal
 
 ---
 
@@ -227,11 +208,8 @@ Let's create a program that:
 	* print the string to the terminal
 
 ---
-layout: false
 
 # JS from the terminal
-
---
 
 * In your projects folder create a `function_intro` folder.
 * In that folder create a file called `print_variable.js`.
@@ -250,20 +228,27 @@ What happens?
 # JS from the terminal - variables
 
 What kind of variable did you create?
-
 ---
 
 # Variable exercises
 
-Create some variables for yourself and print them out.
-
-Use a new file called `my_variables.js`
+Create and print a variable for each type:
 
 * Boolean
 * Number
 * String
 * Date
 * List
+
+Use a new file called `my_variables.js`
+
+---
+
+# Variable type exercise
+
+The `typeof` operator returns the type of a variable.
+
+Change your program to print out the type of each variable.
 
 ---
 # What can a program do with variables?
@@ -272,8 +257,8 @@ Use a new file called `my_variables.js`
 
 * Display the value of the variable.
 * Find things out about the variables.
-* create new variables based on existing ones.
-* make decisions based on values.
+* Create new variables based on existing ones.
+* Make decisions based on values.
 
 ---
 # Functions
@@ -305,15 +290,17 @@ Try:
 ---
 # Dates
 
-* you can ask how long it is (length)
+* you can ask it what day it is
+* you can ask it what month it is
+* you can ask it what year it is
 
 
-`var today = new Date()`
+`var today = new Date();`
 
 Try:
-	* today.getFullYear();
 	* today.getDay();
-	*
+	* today.getMonth();
+	* today.getFullYear();
 
 ---
 # Using variables
@@ -323,15 +310,13 @@ What kind of data is ‘Saturday’?
 * Can we reuse it?
 * What would be better?
 
---
+---
 
 # Create a variable:
 
 Store data in a variable:
 
 `var date = 'Saturday';`
-
---
 
 Now you can do this:
 
@@ -344,18 +329,63 @@ var length = date.length;
 console.log(isWeekend);
 console.log(isDay);
 console.log(length);
-
 ```
---
+---
 
 # How can we use the same code for different data?
 
---
-
-Create a function!
+Without repeating yourself
 
 ---
 
+# Create a function!
+
+Let's create a `dayDetails` function
+
+---
+
+# Function created:
+
+```javascript
+
+var dayDetails = function(day){
+
+	var isWeekend = day.startsWith('S');
+	var isDay = day.endsWith('day');
+	var length = day.length;
+
+	console.log('Is a weekend : ' + isWeekend);
+	console.log('Is a weekday : ' + isDay);
+
+	return isDay;
+}
+
+// now call it:
+
+//store the function result in a variable
+var details = dayDetails('Wednesday');
+console.log(details);
+
+// use the function result immediatly
+console.log(dayDetails('October'));
+
+```
+
+
+---
+# Bootcamp
+
+goto: `bootcamp.projectcodex.co`
+
+And do:
+
+* Variables introduction
+* Function introduction
+* Function exercises
+
+**Remember to commit to github!**
+
+---
 
 		</textarea>
 		<script src="http://gnab.github.io/remark/downloads/remark-latest.min.js"></script>
