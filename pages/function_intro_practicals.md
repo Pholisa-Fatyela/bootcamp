@@ -7,8 +7,9 @@ title: Functions introduction - practicals
 
 Do the practical exercises below. Create each function in it's own file, use the function name for the filename.
 
-
 Do all this work under your projects folder in a folder called `function_intro`. Commit this folder and it contents to github.
+
+You can only use **functions built** into Javascript variable types. **No conditional statements** is allows. Use `console.log` to display output to the console. Test by visual inspection ie. is the right answer displayed on the screen.
 
 ## Strings:
 
