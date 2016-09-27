@@ -20,7 +20,7 @@ There are different ways to declare 'variables' in JavaScript.
 `var` is a variable it's content & type can change over time.
 `const` is a constant value and can't change once defined.
 
-> Create a file called `var_const.js` in your function_intro folder. Put this code snippet in there and run it using `node var_const.js`. Make sure you understan what the code is doing if not add a question to the QQ.
+> Create a file called `var_const.js` in your function_intro folder. Put this code snippet in there and run it using `node var_const.js`. Make sure you understand what the code is doing if not add a question to the QQ.
 
 ```javascript
 
@@ -55,7 +55,6 @@ var aDecimal = 1001.75; // still a number type
 var aBool = false;
 var today = new Date();
 
-//
 console.log(typeof aString);
 console.log(typeof aNumber);
 console.log(typeof aDecimal);
