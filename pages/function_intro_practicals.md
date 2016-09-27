@@ -37,7 +37,7 @@ Using Javascript strings built in `startsWith` and `endsWith` to write functions
 
 ## More parameters less repetition
 
-If you create function that takes in 2 parameters, one for the registration number and the other for the location indicator, you need fewer functions to identify a registration number's location.
+If you create a function that takes 2 parameters, one for the registration number and the other for the location indicator, you need fewer functions to identify a registration number's location.
 
 ```javascript
 
