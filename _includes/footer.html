@@ -12,7 +12,18 @@
                 </li>
             </ul>
         </li>
-
+        <li>
+            <a href="{{ site.baseurl }}/pages/ydkjs.html" {% if page.url == "/pages/ydkjs.html" %}class = "active"{% endif %}>A good book</a>
+        </li>
+        <li>
+            <a href="{{ site.baseurl }}/pages/variables_intro.html" {% if page.url == "/pages/variables_intro.html" %}class = "active"{% endif %}>Variables introduction</a>
+            <a href="{{ site.baseurl }}/pages/function_intro.html" {% if page.url == "/pages/function_intro_practicals.html" %}class = "active"{% endif %}>Function introduction</a>
+            <ul>
+                <li>
+                    <a href="{{ site.baseurl }}/pages/function_intro_practicals.html" {% if page.url == "/pages/function_intro_practicals.html" %}class = "active"{% endif %}>Function exercises</a>
+                </li>
+            </ul>
+        </li>
   </ul>
 
   </nav>
