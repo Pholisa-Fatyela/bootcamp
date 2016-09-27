@@ -2,13 +2,25 @@
 layout: default
 title: Functions introduction - practicals
 ---
+
 # Functions introduction - practicals
 
 Do the practical exercises below. Create each function in it's own file, use the function name for the filename.
 
+
+Do all this work under your projects folder in a folder called `function_intro`. Commit this folder and it contents to github.
+
 ## Strings:
 
 Write a function called `greet` that takes your neighbour’s name as a parameter and prints a greeting to them.
+
+## String & Lists
+
+Write a function called `countRegNumber` that takes in a string parameter that looks like this `CA 182736,CY 523519,CJ 812328` and returns the number of registration numbers in the string. It should also work for this string `CA 42665, AA 12 RT GP`. Test it with some strings of your own. Use Strings builtin `split` function. And List objects `length` function.
+
+## Dates
+
+Write a function that returns a boolean to find out if today is Tuesday called `isTuesday`?
 
 ## Vehicle registration numbers
 
@@ -64,10 +76,12 @@ console.log(date.getDay());
 console.log(weekDays[date.getDay()]);
 ```
 
+Write a function called `isWeekday` find out if the parameter passed in is a weekDay.
+
+Write a function called `yearsAgo` that takes in a `year` and return how many years ago that was. Use the Date objects `getFullYear` function.
+
 Write a function called `dayToday` to find the day today. This function takes no parameters;
 
 Write a function called `getDay` which can find out which day of the week a specific date was.
-
-Write a function called `yearsAgo` that takes in a `year` and return how many years ago that was. Use the Date objects `getFullYear` function.
 
 Write a function called `sameWeekday` that takes in two dates and check if both dates have the same weekday. For example if both dates are a Monday the function should return true.

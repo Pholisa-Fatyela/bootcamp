@@ -5,6 +5,10 @@ title: Functions introduction - practicals
 
 # Variables & Function basics
 
+Learn more about variables by running all the code examples using NodeJS. Put the code each script in a text file and execute them likes this:
+
+`node <YOU_SCRIPT_NAME>.js`
+
 ## Variables
 
 Variables are how JavaScript remember information.
@@ -15,6 +19,8 @@ There are different ways to declare 'variables' in JavaScript.
 
 `var` is a variable it's content & type can change over time.
 `const` is a constant value and can't change once defined.
+
+> Create a file called `var_const.js` in your function_intro folder. Put this code snippet in there and run it using `node var_const.js`. Make sure you understan what the code is doing if not add a question to the QQ.
 
 ```javascript
 
@@ -40,6 +46,7 @@ const one = 71;
 The basic variable types in JavaScript are Strings, Numbers, Dates and Booleans. One can use the `typeof` operator to check variable types.
 
 ```javascript
+//create a script called variables.js
 //declaring some variables
 
 var aString = 'this is my string!';
@@ -61,18 +68,38 @@ console.log(today);
 
 Variables in JavaScript are dynamically typed, that means a variables type can change after being declared.
 
-```Javascript
+```javascript
+//create a script called dynamically_typed.js
 //declare a string
 var theString = 'my string';
-console.log(typeof theString);
+console.log("theString's type is : " + typeof theString);
 
 //change it do a number
 theString = 1008;
 //the type of theString is now a number
-console.log(typeof theString);
+console.log('The variables type changed!');
+console.log("theString's type is : " + typeof theString);
+
 ```
 
-This sometimes leads unintended consequences as each variable have is own built in functions. Be careful when declaring variables! Using constants helps getting around this.
+This might leads unintended consequences as each variable have is own built in functions. Be careful when declaring variables! Using constants helps getting around this.
+
+You can run into errors like this:
+
+```javascript
+//create a script called type_errors.js and put the code below in there
+
+//declare a string
+var theString = 'my string';
+//print the length of a string
+console.log(theString.length);
+//change it do a number
+theString = 1008;
+//this will fail
+console.log('theString.length is now undefined and your program might break!');
+
+console.log(theString.length);
+```
 
 ## Empty variables
 
@@ -80,10 +107,18 @@ Sometimes variables are empty there are two types of empty [`undefined` and `nul
 
 `undefined` means the variable have been defined, but don't have a value yet.
 
+`null` can be assigned to a variable to indicate that it is not defined. Confusing indeed but now you know. This will become useful in the future.
+
 ```javascript
+//create a file called empty_variables.js
+
 var theDay;
+
 //this will be undefined
 console.log(theDay);
-```
 
-`null` can be assigned to a variable to indicate that it is not defined. Confusing indeed but know you know.
+theDay = null;
+
+//now it is null
+console.log(theDay);
+```

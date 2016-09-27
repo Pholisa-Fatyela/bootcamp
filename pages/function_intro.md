@@ -73,6 +73,8 @@ function isWeekday (day) {
 This will fail:
 
 ```javascript
+//execute this using function_expression.js
+
 //call the function
 myFunc();
 
@@ -85,6 +87,7 @@ var myFunc = function(){
 This will work:
 
 ```javascript
+//execute this using function_declaration.js
 //call the function
 myFunc();
 
@@ -107,11 +110,7 @@ Functions have:
 * return parameters (optional)
 
 ```javascript
-
-//an anonymous function - not usable
-function(){
-
-}
+//execute this using functions.js
 
 //an empty function called 'theFunction'
 var theFunction = function(){
@@ -132,6 +131,28 @@ console.log(theParamFunction(1,2));
 
 ```
 
+## Declaring vs calling a function
+
+It's important to know the difference between defining and calling a function. Defining a function will create a variable that contains the function, but the function won't be executed yet. To call (execute) a function you need to add round brackets '()' to the end of the function variable name.
+
+Declaring a function:
+
+```javascript
+//execute this using define_vs_calling.js
+
+var theFunction = function(){
+    console.log('this is the function executing');
+}
+
+//what does this print
+console.log(theFunction);
+console.log(typeof theFunction);
+
+//to call the function
+theFunction();
+//only now 'this is the function' is printed out to the console
+```
+
 ## Function scope
 
 JavaScript have function level scope. Variables defined in a function is not visible outside of the function. You will learn to appreciate this.
@@ -143,6 +164,8 @@ Javascript have higher order functions. That means that Functions can be passed 
 Doh!
 
 ```javascript
+//execute this using functions_as_variables.js
+
 var funcOne = function(){
     console.log('funcOne!');
 };
@@ -151,7 +174,8 @@ var execFunc = function(f){
     f();
 }
 
-execFunc();
+//use function as a parameter
+execFunc(funcOne);
 ```
 
 Functions passed in as variables are used widely in JavaScript and refered to as callbacks. They play an important roll in asyncronous JavaScript code. Ajax and Event Listeners use callbacks extensively.
