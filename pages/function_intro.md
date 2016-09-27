@@ -159,7 +159,7 @@ JavaScript have function level scope. Variables defined in a function is not vis
 
 ## Functions are variables
 
-Javascript have higher order functions. That means that Functions can be passed in as parameters and return as a value from a Functions.
+Javascript have higher order functions. That means that functions can be passed in as parameters and returned as a value from a function.
 
 Doh!
 
@@ -178,4 +178,4 @@ var execFunc = function(f){
 execFunc(funcOne);
 ```
 
-Functions passed in as variables are used widely in JavaScript and refered to as callbacks. They play an important roll in asyncronous JavaScript code. Ajax and Event Listeners use callbacks extensively.
+Functions passed in as variables are used widely in JavaScript and referred to as callbacks. They play an important roll in asynchronous JavaScript programming. Ajax and DOM Event Listeners use callbacks extensively.
