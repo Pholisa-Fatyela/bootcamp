@@ -9,7 +9,7 @@ Do the practical exercises below. Create each function in it's own file, use the
 
 Do all this work under your projects folder in a folder called `function_intro`. Commit this folder and it contents to github.
 
-You can only use **functions built** into Javascript variable types. **No conditional statements** is allows. Use `console.log` to display output to the console. Test by visual inspection ie. is the right answer displayed on the screen.
+You can only use **functions built** into Javascript variable types. **No conditional statements** allowed. Use `console.log` to display output to the console. Test by visual inspection ie. is the right answer displayed on the screen.
 
 ## Strings:
 
@@ -35,38 +35,54 @@ Using Javascript strings built in `startsWith` and `endsWith` to write functions
 | isFromGauteng | returns true if a registration number is for Gauteng otherwise returns false. Gauteng registration numbers looks like this `DR 12 TY GP`|
 | isFromLimpopo | returns true if a registration number is for Limpopo otherwise returns false. Limpopo registration numbers looks like this `DRT 122 L`|
 
-## More general registration number functions
+## More parameters less repetition
 
-Write a function called `myRegChecks` that can check if a registration number is for GP, L, EC, MP. The function takes two parameters, first the registration number and then the letter/s registration number ends with. Returns true/false. Create a version of the functio for Kwazulu Natal & the Western Cape as well. Call is `capeKznRegChecks`.
+If you create function that takes in 2 parameters, one for the registration number and the other for the location indicator, you need fewer functions to identify a registration number's location.
 
 ```javascript
 
-var isGP = myRegChecks('DV 23 NB GP', 'GP');
+isFromPaarl('CJ 98912');
+isFromBellville('CJ 98912');
+isFromCapeTown('CA 98912');
+
+//can be replaced with
+isFrom('CJ 98912', 'CJ');
+isFrom('CY 874324', 'CY');
+isFrom('CY 874324', 'CA');
+
+```
+
+Why is the second example simpler?
+Discuss with someone else in your group.
+
+Create the `isFrom` function. It should work for Western Cape and Natal registration numbers.
+
+Write a function called `regCheck` that can check if a registration number is for GP, L, EC, MP registration plates.
+
+```javascript
+
+var isGP = regCheck('DV 23 NB GP', 'GP');
 
 //should print true
 console.log(isGP);
 
-var isMP = myRegChecks('DV 23 LP GP', 'MP');
-
+var isMP = regCheck('DV 23 LP GP', 'MP');
 //should print false
 console.log(isMP);
 
 // should return true
-var isCY = capeKznRegChecks('CY189-012', 'CY');
-
+var isBellville = isFrom('CY189-012', 'CY');
 //should return false
-var isND = capeKznRegChecks('CY189-012', 'ND');
+var isDurban = isFrom('CY189-012', 'ND');
 ```
 
 ## Dates:
 
 Using the Javascript Date object to write the functions below.
 
-
-This code contains some of the building logic you need for the functions
+This code contains some of the building logic you need for the functions.
 
 ```javascript
-
 const date = new Date('2010-04-01');
 var weekDays = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Saturday'];
 
