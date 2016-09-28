@@ -17,7 +17,7 @@ Write a function called `greet` that takes your neighbour’s name as a paramete
 
 ## String & Lists
 
-Write a function called `countRegNumber` that takes in a string parameter that looks like this `CA 182736,CY 523519,CJ 812328` and returns the number of registration numbers in the string. It should also work for this string `CA 42665, AA 12 RT GP`. Test it with some strings of your own. Use Strings builtin `split` function. And List objects `length` function.
+Write a function called `countRegNumber` that takes in a string parameter that looks like this `'CA 182736,CY 523519,CJ 812328'` and returns the number of registration numbers in the string. It should also work for this string `'CA 42665, AA 12 RT GP'`. Test it with some strings of your own. Use Strings builtin `split` function. And List objects `length` function.
 
 ## Dates
 
