@@ -179,3 +179,7 @@ execFunc(funcOne);
 ```
 
 Functions passed in as variables are used widely in JavaScript and referred to as callbacks. They play an important roll in asynchronous JavaScript programming. Ajax and DOM Event Listeners use callbacks extensively.
+
+## Recap
+
+[Slides](../slides/functions_intro.html) for this section.
