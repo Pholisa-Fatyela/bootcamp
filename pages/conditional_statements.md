@@ -118,3 +118,7 @@ switch(route) {
     	return "There is no train to " + route;
 }
 ```
+
+## Recap
+
+[Slides](../slides/conditional_statements.html) for this section.
