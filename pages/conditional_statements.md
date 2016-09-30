@@ -77,7 +77,7 @@ var match = ('190' == 190);
 var match = '190' === 190;
 ```
 
-Behind the scenes JavaScript is converting the string into a number for you. And then do the comparison which evaluate to true. Using the three equal signs don't do type coercion so a string is compared to a number which is not the same. So the statement evaluates to false.
+Behind the scenes JavaScript is converting the string into a number for you. And then do the comparison which evaluate to true. Using the three equal signs don't do type coercion so a string is compared to a number which is not the same. So the statement evaluates to false. Always you `===` as type coercion cause some unexpected bugs, when values are converted for you when they should not have been.
 
 ## Messy conditionals
 
