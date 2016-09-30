@@ -55,7 +55,7 @@ Function Expression:
 
 ```javascript
 var isWeekday = function (day) {   
-
+    //return if this is weekend or not
 }
 ```
 
@@ -63,7 +63,7 @@ Function declaration:
 
 ```javascript
 function isWeekday (day) {
-
+    //return if this is a week day or nor
 }
 ```
 
