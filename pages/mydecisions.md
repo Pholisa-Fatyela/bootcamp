@@ -1,4 +1,9 @@
-## Your Decisions
+---
+layout: default
+title: Using the terminal
+---
+
+# Your Decisions
 
 What decisions do you make every day?
 
