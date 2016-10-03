@@ -1,3 +1,9 @@
+---
+layout: default
+title: My Decision Function
+---
+
+
 # Write your own function
 
 Choose one of your decisions and write a function for it.
