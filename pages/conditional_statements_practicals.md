@@ -59,5 +59,5 @@ Head on over to [traffic-rules](https://github.com/codex-academy/traffic-rules) 
 
 ## My Decision
 
-For the next challenge, you're going to [write your own function](https://github.com/codex-academy/bootcamp/blob/gh-pages/pages/mydecisions.md) from scratch. 
+For the next challenge, you're going to [write your own function](/pages/mydecisions.html) from scratch. 
 **Enjoy :)**
