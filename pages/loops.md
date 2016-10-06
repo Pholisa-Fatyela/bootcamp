@@ -6,20 +6,20 @@ title: Loops
 
 A loop is a programming constructs that allows code to repeatedly execute while a certain condition is true.
 
-Loops is one of the fundamental programming building blocks and a concept you need to understand well. They are used widely for many different programming tasks.
+Loops are one of the fundamental programming building blocks and a key programming concept that you need to understand well. They are used widely for many different programming tasks.
 
 Things you can use loops for includes:
 
-* Find the biggest / smallest item in a list
-* Find the average value for a list of values
-* Find all the items that match a certain condition
-* Find the first occurrence of a specified condition in a list.
+* Finding the biggest / smallest item in a list
+* Calculating the average value for a list of values
+* Finding all the items that match a certain condition
+* Finding the first occurrence of a specified condition in a list
 
 ## Loop types
 
-There are two types of loops `for` and `while` loops.
+You will focus on `for` and `while` loops.
 
-`While` loops are useful in scenarios where the number of loops cycles required isn't known. `For` loops are for scenarios where the number of loop cycles are known upfront.
+`While` loops are useful in scenarios where the number of loops cycles required isn't known. `For` loops are for scenarios where the required number of loop cycles are known.
 
 ## For loop syntax
 
