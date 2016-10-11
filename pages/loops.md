@@ -206,3 +206,7 @@ console.log(highScore);
 ```
 
 A similar approach can be used to find the smallest number in a list. But you need to be careful not to initialize your control variable to 0, but rather to the first value in the list. Why is that you think?
+
+## Recap
+
+[Slides](../slides/loops.html) for this section.
