@@ -4,7 +4,7 @@ title: Loops
 ---
 # Looping exercises
 
-Do the practical exercises below. Create each function in it’s own file, use the function name for the filename.
+Do the exercises below. Create each function in it’s own file, use the function name for the filename.
 
 Do this work in a folder called `loop_for_awhile`. Add it to github. Commit regularly.
 
