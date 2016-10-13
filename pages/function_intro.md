@@ -68,7 +68,7 @@ function isWeekday (day) {
 ```
 
 
-> `How are the different?` They're actually really similar. How you call them is exactly the same.The difference lies in how the browser loads them into the execution context. Function declarations load before any code is executed. Function expressions load only when the interpreter reaches that line of code. [quote from stackoverflow](http://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip)
+> `How are they different?` They're actually really similar. How you call them is exactly the same.The difference lies in how the browser loads them into the execution context. Function declarations load before any code is executed. Function expressions load only when the interpreter reaches that line of code. [quote from stackoverflow](http://stackoverflow.com/questions/1013385/what-is-the-difference-between-a-function-expression-vs-declaration-in-javascrip)
 
 This will fail:
 
