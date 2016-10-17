@@ -106,12 +106,11 @@ For example:
 `If you are in town and you want to know which platform is your train`
 
 ```javascript
-//try this using a file called platforms.js
 switch(route) {
     case "Langa":
-    	return “platform 1”;
+    	return "platform 1";
     case "Stellenbosch":
-    	return “platform 6”;
+    	return "platform 6";
     case "Wynberg":
     	return "Platform 2";
     default:
