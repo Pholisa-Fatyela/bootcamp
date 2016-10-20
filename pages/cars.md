@@ -7,6 +7,8 @@ title: Cars from where
 
 One of your friends wants to start a second hand car dealership and is doing some market research.
 
+> Do this exercise in a folder called `car_dealership`. Add it to github and commit regularly.
+
 He gave you [some data](/pages/cars.json) that he wants some help with analyzing.
 
 For a few towns he recorded the, model, color and make. As he needs to decide which models to sells and where to open his dealership.
@@ -65,4 +67,4 @@ Over and above that your friend want data for:
 * the  cars for a specific color & model for a specific town `numberOfCarsPerModel('blue', 'model', 'town name')`
 * the most popular color car for any given town `mostPopularColor('townname')`
 
-Write functions that can answer these questions for your friend, function names as per examples.
+Write functions that can answer these questions for your friend, function names in brackets.

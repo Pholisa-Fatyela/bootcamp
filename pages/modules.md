@@ -5,14 +5,16 @@ title: Additional
 
 # Modules
 
-> Only look at this section once you are done with all the exercises for all the basic concepts.
+> Only look at this section once you are done with all the exercises for all the basic concepts. Do it in a folder called `my_modules`
+ and add it to github.
 
-All the code you wrote so far were in one script, the functions being created and used from the same file. There is no way currently to reuse a function you wrote from another function. That can be fixed using `modules`. Modules are a way to write functions that are decoupled from each other.
+All the code you wrote so far were in one script, the functions being created and used from the same file. There is no way currently to reuse a function you wrote from another function. That can be fixed using `modules`. Modules are a way to write functions that are separate (decoupled) from each other, meaning that each functions is in their own files. Modules makes functions reusable.
 
 Look at this code:
 
 ```javascript
     //try this in a file called `tuesday.js`
+
     var assert = require('assert');
 
     var isTuesday = function(day){
