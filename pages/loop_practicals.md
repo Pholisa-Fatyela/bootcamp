@@ -50,16 +50,13 @@ Write a function called `allFromTown` that takes a string parameter with registr
 Use it like this:
 
 ```javascript
-
 var fromStellies = allFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CL');
 
-//fromStellies should contains
 assert.deepEqual(fromStellies, ['CL 124', 'CL 345', 'CL 341'])
 
 var fromKuilsriver = allFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CF');
 
 assert.deepEqual(fromKuilsriver, []);
-
 ```
 
 ### Count how many from a town
@@ -69,12 +66,10 @@ Write a function called `countAllFromTown` that takes a string parameter with re
 Use it like this:
 
 ```javascript
-
 var fromStellies = countAllFromTown('CL 124,CY 567,CL 345, CJ 456,CL 341','CL');
 
 //fromStellies should contains
 assert.deepEqual(fromStellies, 3)
-
 ```
 
 ## Cell phone bills

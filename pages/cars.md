@@ -5,7 +5,14 @@ title: Cars from where
 
 # Cars from where?
 
-One of your friends wants to start a second hand car dealership and is doing some market research. He gave you a [list of car objects](/pages/cars.json) each object in the list looks like this:
+One of your friends wants to start a second hand car dealership and is doing some market research.
+
+He gave you [some data](/pages/cars.json) that he wants some help with analyzing.
+
+For a few towns he recorded the, model, color and make. As he needs to decide which models to sells and where to open his dealership.
+
+Each object in the list looks like this:
+
 
 ```javascript
 
@@ -26,7 +33,7 @@ var cars = require('./cars.json')
 //cars will contain a list of cars
 ```
 
-**Cars can be from :**
+**Cars can be from**
 
 * Paarl ('CJ')
 * Bellville ('CY')
@@ -35,7 +42,7 @@ var cars = require('./cars.json')
 * Cape Town ('CA')
 * Kuilsriver ('CF')
 
-**Your friend now wants to know:**
+**Your friend now wants to know**
 
 * What make is the most popular? (`mostPopularCar`)
 * How many Nissan's are from Malmesbury? (`nissansFromCK`)
@@ -45,7 +52,9 @@ var cars = require('./cars.json')
 * What is the most popular model car in Stellenbosch? (`mostPopularCL`)
 * What is the least popular model car in Kuilsriver? (`leastPopularCF`)
 
-Write functions that can answer these questions for your friend. Each function's name is in brackets above.
+Write functions that can answer these questions for your friend. Each function's name in brackets.
+
+Test your code using `assert` statements.
 
 **There's more**
 
